@@ -1,0 +1,105 @@
+
+<!-- saved from url=(0042)http://tacitapp.com/unity/home/tell-friend -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Recommendation form</title>
+    <script language="javascript">
+        <!--
+
+        function reset() {
+            document.tellafriend.name.value = "";
+            document.tellafriend.email.value = "";
+            document.tellafriend.fmail1.value = "";
+        }
+
+        function validate() {
+
+
+            if (document.tellafriend.fmail1.value.length == 0) {
+                alert("You'll need to enter an email address");
+                return false;
+            }
+
+            if (document.tellafriend.email.value.length == 0) {
+                alert("You forget to enter your email address");
+                return false;
+            }
+            if (document.tellafriend.name.value.length == 0) {
+                alert("You forgot to enter your name");
+                return false;
+            }
+
+            document.tellafriend.submit()
+            return true;
+        }
+
+        //-->
+    </script>
+</head>
+<body onload="reset()" topmargin="0" leftmargin="0">
+<p>
+</p><center>
+</center>
+<table width="450" cellpadding="0" cellspacing="0" align="center">
+    <tbody><tr valign="top">
+        <td valign="middle" align="center">&nbsp;
+            Complete the details below to send a link to the page:
+                        <form name="tellafriend" action="http://tacitapp.com/unity/home/tell-friend" method="post" onsubmit="return checkfields()">&nbsp;
+                <div align="center">
+                    <input type="text" name="refurl" readonly="" value="http://tacitapp.com/unity/insights/accumulative-details/2/13?datefrom=2016-08-30&amp;dateto=2016-10-30" style="width: 100%;">
+                    <center>
+                        <table border="0" cellpadding="10" cellspacing="0">
+                            <tbody><tr>
+                                <td> *Your name:</td>
+                                <td>
+                                    <input size="30" name="name" maxlength="45">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>*Your email:</td>
+                                <td>
+                                    <input size="30" name="email" maxlength="45">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <p align="center">Enter your Colleague's email addresses:</p></td>
+                            </tr>
+                            <tr>
+                                <td>*email:</td>
+                                <td>
+                                    <input size="30" name="fmail1" maxlength="50">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>CC:</td>
+                                <td>
+                                    <input size="30" name="cc" maxlength="50">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Message:</td>
+                                <td>
+                                    <textarea rows="6" cols="32" name="message" style="margin: 0px; width: 527px; height: 148px;"></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <input onclick="validate();" type="button" value="Send">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    </center>
+                </div>
+                <input type="hidden" name="_token" value="RE6FFxn5SRCGEDPyJhhSXFz5YxlQf1uKHFYjuMb3">
+            </form>
+        </td>
+    </tr>
+    <tr valign="top">
+        <td valign="middle" align="center">
+            &nbsp;
+        </td>
+    </tr>
+</tbody></table>
+
+
+</body></html>
